@@ -8,9 +8,10 @@ COPY ./frontend/ /project/
 
 WORKDIR /project
 
+RUN npm install
 RUN npm run build
 
-FROM nginx
+FROM nginx:1.21.6
 COPY --from=0 /project/dist /dist
 
 
