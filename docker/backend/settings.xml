@@ -1,0 +1,19 @@
+<settings>
+    <!--
+    <mirror>
+        <id>alimaven</id>
+        <name>aliyun maven</name>
+        <url>https://maven.aliyun.com/repository/central</url>
+        <mirrorOf>central</mirrorOf>
+    </mirror>
+    -->
+    <mirrors>
+        <mirror>
+            <id>aliyunmaven</id>
+            <mirrorOf>*</mirrorOf>
+            <name>阿里云公共仓库</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </mirror>
+    </mirrors>
+</settings>
+
